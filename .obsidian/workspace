@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "b8f431ae7ef755ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "8887fe0a1e129eb1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1047d1085f0e6f1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee1a57517381f3b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd3bb6f11e0082ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "091a7881baee763e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4da72c17ed4f785c",
+    "type": "split",
+    "children": [
+      {
+        "id": "364255988e1fe1ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f1d914e451916a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8887fe0a1e129eb1",
+  "lastOpenFiles": [
+    "Linux.md"
+  ]
+}
