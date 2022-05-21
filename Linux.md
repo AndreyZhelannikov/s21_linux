@@ -6,9 +6,21 @@
 <figcaption align = "center"><b>Creating a user</b></figcaption>
 ![[Pasted image 20220516173732.png]]<figcaption align = "center"><b>cat /etc/passwd output</b></figcaption>
 ## Part 3. Setting up the OS network##
-![[Pasted image 20220516133910.png]]
-<figcaption align = "center"><b>default hostname</b></figcaption>
-
+```bash
+hostnamectl set-hostname user-1
+```
+ ![[Pasted image 20220521173037.png]]
+<figcaption align = "center"><b>change hostname</b></figcaption>
+```bash
+timedatectl set-timezone Europe/Moscow
+```
+![[Pasted image 20220521173339.png]]
+<figcaption align = "center"><b>change timezone</b></figcaption>
+![[Pasted image 20220521173642.png]]
+<figcaption align = "center"><b>network interfaces</b></figcaption>
+we need an **io interface** so that the virtual machine can interact with the real
+**Dynamic Host Configuration Protocol** (DHCP)
+![[Screenshot 2022-05-21 at 17.46.22.png]]
 
 
 
@@ -32,3 +44,10 @@
 usermod -aG sudo user-1
 ```
 ![[Pasted image 20220521155738.png]]<figcaption align = "center"><b>check that the rights are obtained</b></figcaption>
+![[Pasted image 20220521161015.png]]
+<figcaption align = "center"><b>setting new hostname</b></figcaption>
+## Part 6. Installing and configuring the time service
+![[Pasted image 20220521164153.png]]
+<figcaption align = "center"><b>current date and timezone</b></figcaption>
+![[Pasted image 20220521164402.png]]
+<figcaption align = "center"><b>enabling synchronization</b></figcaption>
