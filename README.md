@@ -355,19 +355,25 @@ similarly to the previous paragraph, select sorting by %CPU
 ```bash
 sudo apt-get install -y ncdu
 ```
+
 ```
 ncdu /home
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152700.png)
 <figcaption align = "center"><b>ncdu for /home</b></figcaption>
+
 ```
 ncdu /var
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152735.png)
 <figcaption align = "center"><b>ncdu for /var</b></figcaption>
+
 ```
 ncdu /var/log
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152756.png)
 <figcaption align = "center"><b>ncdu for /var/log</b></figcaption>
 
@@ -383,9 +389,11 @@ ncdu /var/log
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153445.png)
 <figcaption align = "center"><b>last login</b></figcaption>
+
 ```bash
 sudo systemctl restart ssh.service
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153820.png)
 <figcaption align = "center"><b>sshd restart logs</b></figcaption>
 
