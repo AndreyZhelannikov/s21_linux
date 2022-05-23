@@ -240,7 +240,9 @@ system.
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523141703.png)
 <figcaption align = "center"><b>top utility</b></figcaption>
- uptime - current time and length of time since last boot ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142235.png)
+ uptime - current time and length of time since last boot
+ 
+ ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142235.png)
 
  number of authorised users ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142317.png)
 
