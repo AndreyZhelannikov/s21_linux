@@ -25,6 +25,7 @@ timedatectl set-timezone Europe/Moscow
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220521173339.png)
 <figcaption align = "center"><b>change timezone</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220521173642.png)
 
 * we need an **io interface** so that the virtual machine can interact with the real
