@@ -160,18 +160,23 @@ ctrl + w - to find in nano
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161816.png)
 <figcaption align = "center"><b>nano search</b></figcaption>
 ctrl + \ - to replase in nano
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161948.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162015.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
 and then y or A (to replace all)
 
 F7 - to search
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162438.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162512.png)
 <figcaption align = "center"><b>search result</b></figcaption>
 F4 - to replase
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162552.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162640.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162655.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
 
@@ -224,6 +229,7 @@ ps:
 ## Part 9. Installing and using the top, htop utilities ##
  The top program provides a dynamic real-time view of a running
 system.
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523141703.png)
 <figcaption align = "center"><b>top utility</b></figcaption>
  uptime - current time and length of time since last boot ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142235.png)
@@ -231,9 +237,11 @@ system.
  number of authorised users ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142317.png)
 
  total system load - system load avg over the last 1, 5 and 15 minutes
+ 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142415.png)
 
  total number of processes  - shows total tasks or threads, depending on the state of the Threads-mode toggle.  That total is further classified as: running; sleeping; stopped; zombie
+ 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142551.png)
 
  cpu load - shows CPU state percentages based on the interval since
@@ -259,11 +267,13 @@ The avail number on line 2 is an estimation of physical memory
        
  pid of the process with the highest memory usage
 By selecting the %MEM column with `<` `>` and pressing `R` we get the process with the highest memory usage
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523143953.png)
 <figcaption align = "center"><b>processes sorted by memory</b></figcaption>
 
  pid of the process taking the most CPU time
 similarly to the previous paragraph, select sorting by %CPU
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144050.png)
 <figcaption align = "center"><b>processes sorted by cpu time</b></figcaption>
 
@@ -274,24 +284,32 @@ similarly to the previous paragraph, select sorting by %CPU
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144409.png)
 <figcaption align = "center"><b>sorted by PID</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144626.png)
 <figcaption align = "center"><b>sorted by PERCENT_CPU</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144650.png)
 <figcaption align = "center"><b>sorted by PERCENT_MEM</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144714.png)
 <figcaption align = "center"><b>sorted by TIME</b></figcaption>
 
  `F4` to filter
+ 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144800.png)
 <figcaption align = "center"><b>filtered for sshd process</b></figcaption>
  `F3` to search
+ 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144941.png)
 <figcaption align = "center"><b>searching</b></figcaption>
  press `F2`, add Hostname and Clock to Right column
+ 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145410.png)
 
 ## Part 11. Using the df utility##
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145730.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145741.png)
 <figcaption align = "center"><b>df output</b></figcaption>
 -   partition size : 9336140 (~9.0G)
@@ -315,6 +333,7 @@ similarly to the previous paragraph, select sorting by %CPU
 ## Part 12. Using the du utility##
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523151816.png)
 <figcaption align = "center"><b>du output for /home /var/log and /var</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152616.png)
 <figcaption align = "center"><b>human readable sizes</b></figcaption>
 
@@ -345,10 +364,13 @@ ncdu /var/log
 ## Part 14. Working with system logs##
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153038.png)
 <figcaption align = "center"><b>/var/log/dmesg</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153117.png)
 <figcaption align = "center"><b>/var/log/syslog</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153151.png)
 <figcaption align = "center"><b>/var/log/auth.log</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523153445.png)
 <figcaption align = "center"><b>last login</b></figcaption>
 ```bash
@@ -365,5 +387,6 @@ crontab -e
 ```
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523154516.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523155455.png)
 <figcaption align = "center"><b>/var/log/syslog</b></figcaption>
