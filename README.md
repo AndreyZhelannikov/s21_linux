@@ -36,8 +36,10 @@ timedatectl set-timezone Europe/Moscow
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522140509.png)
 <figcaption align = "center"><b>dhcp log</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522140211.png)
 <figcaption align = "center"><b>information from the dhclient.leases </b></figcaption>
+
 * The external IP address or **Public IP address** is the IP address of the **router interface** that is connected to the Internet.
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522143006.png)
 <figcaption align = "center"><b>external IP address </b></figcaption>
@@ -53,24 +55,32 @@ sudo vim /etc/netplan/00-installer-config.yaml
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522144851.png)
 <figcaption align = "center"><b>Above are the default entries, which shows that interface “**enp0s3**” is getting the IP from DHCP server</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151425.png)
 <figcaption align = "center"><b>changing the yaml file</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151149.png)
 <figcaption align = "center"><b>applying and confirming changes</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151457.png)
 <figcaption align = "center"><b>after reboot</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151551.png)
 <figcaption align = "center"><b>ping 1.1.1.1</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151618.png)
 <figcaption align = "center"><b>ping ya.ru</b></figcaption>
 
 ## Part 4. OS Update##
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220516131441.png)
 <figcaption align = "center"><b>refreshing package database</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220516131638.png)
 <figcaption align = "center"><b>available update/packages/pathces</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220516131753.png)
 <figcaption align = "center"><b>installing security updates and patches for all installed apps</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220516131913.png)
 <figcaption align = "center"><b>checking updates again</b></figcaption>
 
@@ -82,12 +92,14 @@ sudo vim /etc/netplan/00-installer-config.yaml
 usermod -aG sudo user-1
 ```
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151946.png))<figcaption align = "center"><b>check that the rights are obtained</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522152032.png)
 <figcaption align = "center"><b>setting new hostname</b></figcaption>
 
 ## Part 6. Installing and configuring the time service
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220521164153.png)
 <figcaption align = "center"><b>current date and timezone</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522154732.png)
 <figcaption align = "center"><b>enabling synchronization</b></figcaption>
 
@@ -138,9 +150,12 @@ mcedit test_mcedit.txt
 **/** - to find
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161244.png)
 <figcaption align = "center"><b>vim search</b></figcaption>
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161535.png)
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161604.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
+
 **ctrl + w** - to find in nano
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161816.png)
 <figcaption align = "center"><b>nano search</b></figcaption>
