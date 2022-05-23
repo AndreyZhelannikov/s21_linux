@@ -28,8 +28,8 @@ timedatectl set-timezone Europe/Moscow
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220521173642.png)
 
-* we need an **io interface** so that the virtual machine can interact with the real
-* Dynamic Host Configuration Protocol** (DHCP)
+* we need an *io interface* so that the virtual machine can interact with the real
+* Dynamic Host Configuration Protocol* (DHCP)
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522134156.png)
 <figcaption align = "center"><b>network interfaces</b></figcaption>
@@ -40,7 +40,7 @@ timedatectl set-timezone Europe/Moscow
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522140211.png)
 <figcaption align = "center"><b>information from the dhclient.leases </b></figcaption>
 
-* The external IP address or **Public IP address** is the IP address of the **router interface** that is connected to the Internet.
+* The external IP address or *Public IP address* is the IP address of the *router interface* that is connected to the Internet.
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522143006.png)
 <figcaption align = "center"><b>external IP address </b></figcaption>
 
@@ -54,7 +54,7 @@ sudo vim /etc/netplan/00-installer-config.yaml
 ```
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522144851.png)
-<figcaption align = "center"><b>Above are the default entries, which shows that interface “**enp0s3**” is getting the IP from DHCP server</b></figcaption>
+<figcaption align = "center"><b>Above are the default entries, which shows that interface “*enp0s3*” is getting the IP from DHCP server</b></figcaption>
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151425.png)
 <figcaption align = "center"><b>changing the yaml file</b></figcaption>
@@ -84,7 +84,7 @@ sudo vim /etc/netplan/00-installer-config.yaml
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220516131913.png)
 <figcaption align = "center"><b>checking updates again</b></figcaption>
 
-## Part 5. Using the **sudo** command##
+## Part 5. Using the *sudo* command##
 * `sudo` is a command-line program that allows trusted users to execute commands as root or another user.
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522151828.png))<figcaption align = "center"><b>executing sudo command for user-1</b></figcaption>
@@ -123,7 +123,7 @@ vim test_vim.txt
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522155817.png)
 <figcaption align = "center"><b>nano</b></figcaption>
-**ctrl + x** + **y** + **return** - to quit and save changes
+*ctrl + x* + *y* + *return* - to quit and save changes
 
 ```bash
 mcedit test_mcedit.txt
@@ -131,23 +131,23 @@ mcedit test_mcedit.txt
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522160116.png)
 <figcaption align = "center"><b>mcedit</b></figcaption>
-**F1** + **return** + **F10** - to quit and save changes
+*F1* + *return* + *F10* - to quit and save changes
 
 #### 3.  creating and working with files ####
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522160434.png)
 <figcaption align = "center"><b>vim</b></figcaption>
-**:q!** - to exit without saving
+*:q!* - to exit without saving
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522160552.png)
 <figcaption align = "center"><b>nano</b></figcaption>
-**ctrl + x** + **y** - to exit without saving
+*ctrl + x* + *y* - to exit without saving
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522160651.png)
 <figcaption align = "center"><b>mcedit</b></figcaption>
-**F10** + chose **NO** + **return**
+*F10* + chose *NO* + *return*
 
 #### 4. creating and working with files ####
-**/** - to find
+*/* - to find
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161244.png)
 <figcaption align = "center"><b>vim search</b></figcaption>
 
@@ -156,14 +156,14 @@ mcedit test_mcedit.txt
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161604.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
 
-**ctrl + w** - to find in nano
+*ctrl + w* - to find in nano
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161816.png)
 <figcaption align = "center"><b>nano search</b></figcaption>
 ctrl + \ - to replase in nano
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522161948.png)
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162015.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
-and then **y** or **A** (to replace all)
+and then *y* or *A* (to replace all)
 
 F7 - to search
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162438.png)
@@ -175,7 +175,7 @@ F4 - to replase
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162655.png)
 <figcaption align = "center"><b>before and after replasing</b></figcaption>
 
-## Part 8. Installing and basic setup of the **SSHD** service##
+## Part 8. Installing and basic setup of the *SSHD* service##
 `sudo apt-get install openssh-server`
 `sudo systemctl enable ssh` - to enable ssh on boot 
 
@@ -202,67 +202,67 @@ netstat:
 * `-t`  (--tcp) tcp protocol output
 * `-a` (--all) Show both listening and non-listening sockets
 * `-n` (--numeric) Show numerical addresses instead of trying to determine symbolic host, port or user names
-**Proto** - the protocol (tcp, udp, raw) used by the socket.
+*Proto* - the protocol (tcp, udp, raw) used by the socket.
 
-**Recv-Q** - the count of bytes not copied by the user program connected to this socket.
+*Recv-Q* - the count of bytes not copied by the user program connected to this socket.
 
-**Send-Q** - the count of bytes not acknowledged by the remote host.
+*Send-Q* - the count of bytes not acknowledged by the remote host.
 
-**Local Address** - Address and port number of the local end of the socket. Unless the **--numeric** (**-n**) option is specified, the socket address is resolved to its canonical host name (FQDN), and the port number is translated into the corresponding service name.
+*Local Address* - Address and port number of the local end of the socket. Unless the *--numeric* (*-n*) option is specified, the socket address is resolved to its canonical host name (FQDN), and the port number is translated into the corresponding service name.
 
-**Foreign Address** - address and port number of the remote end of the socket. Analogous to "Local Address."
+*Foreign Address* - address and port number of the remote end of the socket. Analogous to "Local Address."
 
-**State** - the state of the socket. Since there are no states in raw mode and usually no states used in UDP, this column may be left blank.
+*State* - the state of the socket. Since there are no states in raw mode and usually no states used in UDP, this column may be left blank.
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523140348.png)
 <figcaption align = "center"><b>ps -aux | grep sshd output</b></figcaption>
 ps:
-* `a` this option causes **ps** to list all processes with a terminal (tty), or to list all processes when used together with the **x** option.
+* `a` this option causes *ps* to list all processes with a terminal (tty), or to list all processes when used together with the *x* option.
 * `u`  Display user-oriented format.
-* `x` this option causes **ps** to list all processes owned by you (same EUID as **ps**), or to list all processes when used together with the **a** option.
+* `x` this option causes *ps* to list all processes owned by you (same EUID as *ps*), or to list all processes when used together with the *a* option.
 
-## Part 9. Installing and using the **top**, **htop** utilities ##
-* The **top** program provides a dynamic real-time view of a running
+## Part 9. Installing and using the *top*, *htop* utilities ##
+* The *top* program provides a dynamic real-time view of a running
 system.
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523141703.png)
 <figcaption align = "center"><b>top utility</b></figcaption>
-* **uptime** - current time and length of time since last boot ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142235.png)
+* *uptime* - current time and length of time since last boot ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142235.png)
 
-* **number of authorised users** ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142317.png)
+* *number of authorised users* ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142317.png)
 
-* **total system load** - system load avg over the last 1, 5 and 15 minutes
+* *total system load* - system load avg over the last 1, 5 and 15 minutes
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142415.png)
 
-* **total number of processes**  - shows total **tasks** or **threads**, depending on the state of the Threads-mode toggle.  That total is further classified as: running; sleeping; stopped; zombie
+* *total number of processes*  - shows total *tasks* or *threads*, depending on the state of the Threads-mode toggle.  That total is further classified as: running; sleeping; stopped; zombie
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523142551.png)
 
-* **cpu load** - shows CPU state percentages based on the interval since
+* *cpu load* - shows CPU state percentages based on the interval since
 the last refresh.
 As a default, percentages for these individual categories are displayed.  Where two labels are shown below, those for more recent kernel versions are shown first.
-    **us**, **user**    : time running un-niced user processes
-    **sy**, **system**  : time running kernel processes
-    **ni**, **nice**    : time running niced user processes
-    **id**, **idle**    : time spent in the kernel idle handler
-    **wa**, **IO-wait** : time waiting for I/O completion
-    **hi** : time spent servicing hardware interrupts
-	**si** : time spent servicing software interrupts
-	**st** : time stolen from this vm by the hypervisor
+    *us*, *user*    : time running un-niced user processes
+    *sy*, *system*  : time running kernel processes
+    *ni*, *nice*    : time running niced user processes
+    *id*, *idle*    : time spent in the kernel idle handler
+    *wa*, *IO-wait* : time waiting for I/O completion
+    *hi* : time spent servicing hardware interrupts
+	*si* : time spent servicing software interrupts
+	*st* : time stolen from this vm by the hypervisor
 	
-* **memory load**
+* *memory load*
 This portion consists of two lines which may express values in kibibytes (KiB)
 As a default, Line 1 reflects physical memory, classified as:
            total, free, used and buff/cache
 Line 2 reflects mostly virtual memory, classified as:
            total, free, used and avail (which is physical memory)
-The **avail** number on line 2 is an estimation of physical memory
+The *avail* number on line 2 is an estimation of physical memory
        available for starting new applications, without swapping.
        
-* **pid of the process with the highest memory usage**
+* *pid of the process with the highest memory usage*
 By selecting the %MEM column with `<` `>` and pressing `R` we get the process with the highest memory usage
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523143953.png)
 <figcaption align = "center"><b>processes sorted by memory</b></figcaption>
 
-* **pid of the process taking the most CPU time**
+* *pid of the process taking the most CPU time*
 similarly to the previous paragraph, select sorting by %CPU
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523144050.png)
 <figcaption align = "center"><b>processes sorted by cpu time</b></figcaption>
@@ -290,7 +290,7 @@ similarly to the previous paragraph, select sorting by %CPU
 * press `F2`, add Hostname and Clock to Right column
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145410.png)
 
-## Part 11. Using the **df** utility##
+## Part 11. Using the *df* utility##
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145730.png)
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523145741.png)
 <figcaption align = "center"><b>df output</b></figcaption>
@@ -312,7 +312,7 @@ similarly to the previous paragraph, select sorting by %CPU
 * 1G = 1024 * 1024 * 1024 bytes
 * file system type : ext4
 
-## Part 12. Using the **du** utility##
+## Part 12. Using the *du* utility##
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523151816.png)
 <figcaption align = "center"><b>du output for /home /var/log and /var</b></figcaption>
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152616.png)
@@ -321,7 +321,7 @@ similarly to the previous paragraph, select sorting by %CPU
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523152024.png)
 <figcaption align = "center"><b>du for all contents in /var/log</b></figcaption>
 
-## Part 13. Installing and using the **ncdu** utility##
+## Part 13. Installing and using the *ncdu* utility##
 
 ```bash
 sudo apt-get install -y ncdu
@@ -358,7 +358,7 @@ sudo systemctl restart ssh.service
 <figcaption align = "center"><b>sshd restart logs</b></figcaption>
 
 
-## Part 15. Using the **CRON** job scheduler##
+## Part 15. Using the *CRON* job scheduler##
 
 ```bash
 crontab -e
