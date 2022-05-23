@@ -173,6 +173,7 @@ F7 - to search
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162512.png)
 <figcaption align = "center"><b>search result</b></figcaption>
 F4 - to replase
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162552.png)
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220522162640.png)
