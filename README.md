@@ -187,23 +187,30 @@ F4 - to replase
 
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523132016.png)
 <figcaption align = "center"><b>ssh status</b></figcaption>
+
 ```bash
 sudo ufw allow ssh  
 sudo ufw enable  
 sudo ufw status
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523132433.png)
 <figcaption align = "center"><b>ssh status</b></figcaption>
+
 ```bash
 sudo vim /etc/ssh/sshd_config
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523135706.png)
 <figcaption align = "center"><b>changing port 22 to port 2022</b></figcaption>
+
 ```bash
 service ssh restart
 ```
+
 ![](https://github.com/AndreyZhelannikov/s21_linux/blob/develop/Attachments/Pasted%20image%2020220523135805.png)
 <figcaption align = "center"><b>netstat -tan output</b></figcaption>
+
 netstat:
  `-t`  (--tcp) tcp protocol output
  `-a` (--all) Show both listening and non-listening sockets
